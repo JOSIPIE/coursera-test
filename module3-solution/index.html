@@ -9,7 +9,7 @@
 
 <!--HEAD SECTION STARTS-->
 <head>
-    <meta content="text/html; charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,13 +24,14 @@
 
     <!-- Bootstrap fonts-->
 
-    <link rel="stylesheet" href="bootstrap.css"> 
+    <link href="./module3-solution/styles.css" rel="stylesheet">
+    <link href="./module3-solution/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="styles.css"> 
-                                    
-                                          
+    <script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/popup.js" async=""></script><script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/tat_popup.js" async=""></script>
   </head>
 <!--HEAD SECTION ENDS-->
-<body>
+<body data-new-gr-c-s-check-loaded="14.1081.0" data-gr-ext-installed="">
 
 <header>
 
@@ -38,37 +39,35 @@
     <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+             </button>
           <div class="navbar-brand">
             <a href="https://josipie.github.io/coursera-test/module3-solution/index.html">
               <h1>Food, LLC</h1>
             </a>
           </div>
-
-
-<!--BUTTTON STARTS-->
-<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-    <span class="sr-only">Toggle navigation</span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-</div>
+        </div>
 
 <!--COLLAPSE NAVBAR STARTS-->
 <div class="collapse navbar-collapse" id="collapsable-nav">
-    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+    <ul id="nav-list" class="nav navbar-nav mr-auto navbar-right visible-xs text-center">
       <li>
-        <a href="https://josipie.github.io/coursera-test/module3-solution/#chicken">Chicken</a>
+        <a href="#chicken">Chicken</a>
       </li>
       <li>
-        <a href="https://josipie.github.io/coursera-test/module3-solution/#beef">Beef</a>
+        <a href="#beef">Beef</a>
       </li>
       <li>
-        <a href="https://josipie.github.io/coursera-test/module3-solution/#sushi">Sushi</a>
+        <a href="#sushi">Sushi</a>
       </li>
     </ul>
   </div>
-</div></nav>
+</div>
+</nav>
 
 <!---TILES SECTION STARTS-->
   <div id="top" class="container-fluid">
@@ -79,6 +78,7 @@
   <div class="col-lg-4 col-md-6 col-xs-12">
     <div id="text" class="container-fluid">
       <h3 id="chicken" class="text-center">Chicken</h3>
+      <br>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi elit. Pellentesque sit amet magna justo. Pellentesque laoreet urna ut sapien molestie placerat. Quisque ut facilisis enim, eu sagittis justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean et lectus ut libero rutrum iaculis at in nisi. Sed facilisis dui quis purus porttitor viverra. Aliquam scelerisque auctor odio, in tempus risus egestas id. Aenean pellentesque, libero sit amet viverra feugiat, odio magna malesuada arcu, vitae porta mi tortor ac enim. Aenean commodo mauris eu quam vestibulum hendrerit. In eu efficitur lorem. Nunc et arcu hendrerit, venenatis turpis a, fermentum velit. Donec at erat risus. Donec porttitor, nunc nec tristique pellentesque, erat tellus dignissim nulla, nec hendrerit eros nibh malesuada ligula. Aenean mattis nibh ac arcu interdum, non interdum sem consequat.Sed porttitor ultrices velit in imperdiet. Nunc eu quam mollis, tristique lorem eu, ornare dui. Sed massa ex, vulputate quis ipsum sit amet, facilisis interdum lorem. Duis interdum nibh purus, eget suscipit odio mollis quis. Integer ultricies elementum magna non egestas. In vel sapien nec justo sagittis porta. Phasellus eget ante at libero iaculis finibus sit amet gravida tellus. Ut id urna ut sapien mollis congue. Morbi sodales ac mauris non ornare. In dictum congue metus, nec blandit tortor molestie vel. Quisque facilisis ante vitae finibus faucibus. Pellentesque pellentesque sollicitudin risus a laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam arcu nisi, iaculis ut tortor sed, pretium euismod ligula.Aenean malesuada pellentesque libero, sit amet venenatis felis mollis a. Donec lobortis elit eu purus euismod tempus. Pellentesque vulputate lacinia tincidunt. Ut sit amet dapibus sapien. Proin ac eleifend dui. Proin commodo varius diam, eget porta mi eleifend nec. Vestibulum non dignissim neque. Aliquam finibus, nulla vel porttitor imperdiet, sapien sapien porttitor nisi, sed hendrerit tellus tortor vel erat. Morbi convallis, metus nec ullamcorper commodo, arcu augue gravida sem, sed cursus tortor dolor in libero. In ac leo eget justo tristique tincidunt sed id metus. Proin euismod diam a nunc tempor scelerisque. Sed sed accumsan sapien. Proin id sapien pulvinar, tincidunt risus.
         <a class="visible-xs" href="https://josipie.github.io/coursera-test/module3-solution/#top">Back to top</a>
@@ -91,6 +91,7 @@
   <div class="col-lg-4 col-md-6 col-xs-12">
   <div id="text" class="container-fluid">
     <h3 id="beef" class="text-center">Beef</h3>
+    <br>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi elit. Pellentesque sit amet magna justo. Pellentesque laoreet urna ut sapien molestie placerat. Quisque ut facilisis enim, eu sagittis justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean et lectus ut libero rutrum iaculis at in nisi. Sed facilisis dui quis purus porttitor viverra. Aliquam scelerisque auctor odio, in tempus risus egestas id. Aenean pellentesque, libero sit amet viverra feugiat, odio magna malesuada arcu, vitae porta mi tortor ac enim. Aenean commodo mauris eu quam vestibulum hendrerit. In eu efficitur lorem. Nunc et arcu hendrerit, venenatis turpis a, fermentum velit. Donec at erat risus. Donec porttitor, nunc nec tristique pellentesque, erat tellus dignissim nulla, nec hendrerit eros nibh malesuada ligula. Aenean mattis nibh ac arcu interdum, non interdum sem consequat.Sed porttitor ultrices velit in imperdiet. Nunc eu quam mollis, tristique lorem eu, ornare dui. Sed massa ex, vulputate quis ipsum sit amet, facilisis interdum lorem. Duis interdum nibh purus, eget suscipit odio mollis quis. Integer ultricies elementum magna non egestas. In vel sapien nec justo sagittis porta. Phasellus eget ante at libero iaculis finibus sit amet gravida tellus. Ut id urna ut sapien mollis congue. Morbi sodales ac mauris non ornare. In dictum congue metus, nec blandit tortor molestie vel. Quisque facilisis ante vitae finibus faucibus. Pellentesque pellentesque sollicitudin risus a laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam arcu nisi, iaculis ut tortor sed, pretium euismod ligula.Aenean malesuada pellentesque libero, sit amet venenatis felis mollis a. Donec lobortis elit eu purus euismod tempus. Pellentesque vulputate lacinia tincidunt. Ut sit amet dapibus sapien. Proin ac eleifend dui. Proin commodo varius diam, eget porta mi eleifend nec. Vestibulum non dignissim neque. Aliquam finibus, nulla vel porttitor imperdiet, sapien sapien porttitor nisi, sed hendrerit tellus tortor vel erat. Morbi convallis, metus nec ullamcorper commodo, arcu augue gravida sem, sed cursus tortor dolor in libero. In ac leo eget justo tristique tincidunt sed id metus. Proin euismod diam a nunc tempor scelerisque. Sed sed accumsan sapien. Proin id sapien pulvinar, tincidunt risus.
       <a class="visible-xs" href="https://josipie.github.io/coursera-test/module3-solution/#top">Back to top</a><!--ODE PROMINI LINK-->
@@ -103,6 +104,7 @@
 <div class="col-lg-4 col-md-12 col-xs-12">
   <div id="text" class="container-fluid">
     <h3 id="sushi" class="text-center">Sushi</h3>
+    <br>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi elit. Pellentesque sit amet magna justo. Pellentesque laoreet urna ut sapien molestie placerat. Quisque ut facilisis enim, eu sagittis justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean et lectus ut libero rutrum iaculis at in nisi. Sed facilisis dui quis purus porttitor viverra. Aliquam scelerisque auctor odio, in tempus risus egestas id. Aenean pellentesque, libero sit amet viverra feugiat, odio magna malesuada arcu, vitae porta mi tortor ac enim. Aenean commodo mauris eu quam vestibulum hendrerit. In eu efficitur lorem. Nunc et arcu hendrerit, venenatis turpis a, fermentum velit. Donec at erat risus. Donec porttitor, nunc nec tristique pellentesque, erat tellus dignissim nulla, nec hendrerit eros nibh malesuada ligula. Aenean mattis nibh ac arcu interdum, non interdum sem consequat.Sed porttitor ultrices velit in imperdiet. Nunc eu quam mollis, tristique lorem eu, ornare dui. Sed massa ex, vulputate quis ipsum sit amet, facilisis interdum lorem. Duis interdum nibh purus, eget suscipit odio mollis quis. Integer ultricies elementum magna non egestas. In vel sapien nec justo sagittis porta. Phasellus eget ante at libero iaculis finibus sit amet gravida tellus. Ut id urna ut sapien mollis congue. Morbi sodales ac mauris non ornare. In dictum congue metus, nec blandit tortor molestie vel. Quisque facilisis ante vitae finibus faucibus. Pellentesque pellentesque sollicitudin risus a laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam arcu nisi, iaculis ut tortor sed, pretium euismod ligula.Aenean malesuada pellentesque libero, sit amet venenatis felis mollis a. Donec lobortis elit eu purus euismod tempus. Pellentesque vulputate lacinia tincidunt. Ut sit amet dapibus sapien. Proin ac eleifend dui. Proin commodo varius diam, eget porta mi eleifend nec. Vestibulum non dignissim neque. Aliquam finibus, nulla vel porttitor imperdiet, sapien sapien porttitor nisi, sed hendrerit tellus tortor vel erat. Morbi convallis, metus nec ullamcorper commodo, arcu augue gravida sem, sed cursus tortor dolor in libero. In ac leo eget justo tristique tincidunt sed id metus. Proin euismod diam a nunc tempor scelerisque. Sed sed accumsan sapien. Proin id sapien pulvinar, tincidunt risus.
       <a class="visible-xs" href="https://josipie.github.io/coursera-test/module3-solution/#top">Back to top</a><!--ODE PROMINI LINK-->
@@ -119,5 +121,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
-</html>
 
+
+<template id="transover-popup-template"></template><template id="transover-tat-popup-template"></template><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>
